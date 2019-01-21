@@ -1,0 +1,33 @@
+{
+  "name": "todo-with-mongo",
+  "version": "1.0.0",
+  "description": "TODO by Hapi connect to mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kessirin296/todo-with-mongo.git"
+  },
+  "keywords": [
+    "hapi",
+    "mongodb",
+    "todo"
+  ],
+  "author": "beaut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kessirin296/todo-with-mongo/issues"
+  },
+  "homepage": "https://github.com/kessirin296/todo-with-mongo#readme",
+  "dependencies": {
+    "hapi": "^17.8.1"
+  },
+  "devDependencies": {
+    "@types/hapi": "^17.8.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  }
+}
