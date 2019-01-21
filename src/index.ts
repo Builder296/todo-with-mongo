@@ -3,16 +3,16 @@
 import { Server } from 'hapi';
 
 const server = new Server({
-    port: 8000,
-    host: 'localhost'
+    host: '0.0.0.0',
+    port: process.env.PORT || 8000
 });
 
 server.route([
     {
-        path: "/",
-        method: "GET",
+        path: '/',
+        method: 'GET',
         handler: (request, h) => {
-            return "Hello World !!"
+            return 'Hello World !!'
         }
     },
 ]);
